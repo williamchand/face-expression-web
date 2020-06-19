@@ -29,7 +29,7 @@ function App() {
 
   const loadModel = async () => {
     next();
-    const model = await tf.loadLayersModel('assets/model.json');
+    const model = await tf.loadLayersModel('/assets/model.json');
     setModel(model);
     next();
   };
